@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "samples": [
+    {
+      "sample_id": "finish_line_001",
+      "metadata": {
+        "description:person_1": "A runner is crossing the finish line"
+      },
+      "people": [
+        {
+          "person_id": "person_1",
+          "box": [0.34, 0.10, 0.72, 0.95],
+          "face_box": [0.46, 0.12, 0.58, 0.28],
+          "confidence": 0.98,
+          "cues": [
+            {
+              "cue_id": "cue_face_1",
+              "family": "face",
+              "description": "lip-corner raising",
+              "confidence": 0.82,
+              "region": [0.46, 0.12, 0.58, 0.28],
+              "source": "example"
+            },
+            {
+              "cue_id": "cue_body_1",
+              "family": "body",
+              "description": "raised arms",
+              "confidence": 0.88,
+              "region": [0.34, 0.25, 0.72, 0.75],
+              "source": "example"
+            },
+            {
+              "cue_id": "cue_context_1",
+              "family": "context",
+              "description": "crossing a finish line",
+              "confidence": 0.91,
+              "source": "example"
+            }
+          ],
+          "affect_distribution": {
+            "pleased": 0.80,
+            "neutral_or_unclear": 0.15,
+            "negative": 0.05
+          },
+          "interventions": {
+            "remove_evidence": 0.15,
+            "isolate_evidence": 0.75,
+            "nuisance": [0.79, 0.77, 0.78]
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "conversation_002",
+      "metadata": {
+        "description:person_2": "A person is speaking with a small group"
+      },
+      "people": [
+        {
+          "person_id": "person_2",
+          "box": [0.08, 0.12, 0.39, 0.91],
+          "confidence": 0.94,
+          "cues": [
+            {
+              "cue_id": "cue_body_2",
+              "family": "body",
+              "description": "open hand gesture",
+              "confidence": 0.66,
+              "source": "example"
+            },
+            {
+              "cue_id": "cue_context_2",
+              "family": "context",
+              "description": "social conversation",
+              "confidence": 0.61,
+              "source": "example"
+            }
+          ],
+          "affect_distribution": {
+            "engaged": 0.55,
+            "neutral_or_unclear": 0.35,
+            "negative": 0.10
+          },
+          "interventions": {
+            "remove_evidence": 0.35,
+            "isolate_evidence": 0.48,
+            "nuisance": [0.52, 0.48, 0.50]
+          }
+        }
+      ]
+    },
+    {
+      "sample_id": "occluded_003",
+      "metadata": {
+        "description:person_3": "A person wearing a hat is riding a horse"
+      },
+      "people": [
+        {
+          "person_id": "person_3",
+          "box": [0.41, 0.08, 0.73, 0.83],
+          "confidence": 0.90,
+          "cues": [
+            {
+              "cue_id": "cue_face_3",
+              "family": "face",
+              "description": "partly occluded face",
+              "confidence": 0.42,
+              "source": "example"
+            }
+          ],
+          "affect_distribution": {
+            "serious": 0.45,
+            "neutral_or_unclear": 0.40,
+            "negative": 0.15
+          },
+          "interventions": {
+            "remove_evidence": 0.40,
+            "isolate_evidence": 0.30,
+            "nuisance": [0.25, 0.20, 0.15]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "verification": {
+    "necessity_weight": 0.35,
+    "sufficiency_weight": 0.25,
+    "stability_weight": 0.25,
+    "conflict_weight": 0.15
+  },
+  "decision": {
+    "direct_threshold": 0.72,
+    "qualified_threshold": 0.48,
+    "minimum_affect_probability": 0.40,
+    "maximum_conflict_for_direct": 0.30
+  },
+  "language": {
+    "qualified_marker": "appears"
+  }
+}
